@@ -6,7 +6,7 @@ int main() {
     std::cout << "Hello, Turtle!" << std::endl;
 
     auto turtle = Turtle{};
-    turtle.sayHello();
+    std::cout << turtle.sayHello() << std::endl;
 
     auto controller = Controller{turtle};
     controller.moveLikeAKnight();

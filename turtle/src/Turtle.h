@@ -1,9 +1,10 @@
 #ifndef GMOCK_WITHOUT_INHERITANCE_TURTLE_H
 #define GMOCK_WITHOUT_INHERITANCE_TURTLE_H
 
+#include <string>
 
 struct Turtle {
-    void sayHello();
+    std::string sayHello();
     void forward(int distance);
     void turn(int degrees);
 };
